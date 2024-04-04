@@ -36,7 +36,11 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+<<<<<<< HEAD
 		<finalName>springboot-doc</finalName>
+=======
+		<finalName>spring-boot-doc</finalName>
+>>>>>>> 9fddd5f29036c0ce22ef4b25516247a57e11cf67
 	</build>
 
 </project>
