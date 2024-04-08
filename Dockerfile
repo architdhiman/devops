@@ -1,4 +1,4 @@
 FROM openjdk:17-alpine
 EXPOSE 9000
-ADD target/springboot-doc.jar springboot-doc.jar
-ENTRYPOINT ["java", "-jar", "springboot-doc.jar"]
+ADD target/sbdevops-0.0.1-SNAPSHOT.jar sbdevops-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java", "-jar", "sbdevops-0.0.1-SNAPSHOT.jar"]
